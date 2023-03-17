@@ -19,13 +19,13 @@ testing <- iris[ind==2,]
 # 2. save entire dataset, training and testing datasets
 # save a copy of the dataset in .csv
 write.csv(iris, 
-          "C:/Users/julia/OneDrive/Desktop/github/4.Violin_Boxplots/iris.csv",
+          "path/iris.csv",
           row.names = FALSE)
 write.csv(training, 
-          "C:/Users/julia/OneDrive/Desktop/github/4.Violin_Boxplots/iris_training.csv",
+          "path/iris_training.csv",
           row.names = FALSE)
 write.csv(testing, 
-          "C:/Users/julia/OneDrive/Desktop/github/4.Violin_Boxplots/iris_testing.csv",
+          "path/iris_testing.csv",
           row.names = FALSE)
 
 #-----------------------------------------------------------
