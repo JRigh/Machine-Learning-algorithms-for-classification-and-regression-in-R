@@ -282,7 +282,7 @@ predictions <- apply(pred_mlr, 1, which.max)
 predictions[which(predictions=="1")] <- levels(iris$Species)[1]
 predictions[which(predictions=="2")] <- levels(iris$Species)[2]
 predictions[which(predictions=="3")] <- levels(iris$Species)[3]
-tab <- table(predictions, test$Species)
+tab <- table(predictions, testing$Species)
 
 result_mlr <- caret::confusionMatrix(tab)
 result_mlr
