@@ -3,13 +3,13 @@
 # Classification algorithms
 #---------------------------------
 
-library(GGally)
-
 data(iris)
 
 #-----------------
 # 0. Visualization
 #-----------------
+
+library(GGally)
 
 # 1. multiple plots 
 ggpairs(iris, ggplot2::aes(colour = Species, alpha = 0.4))
